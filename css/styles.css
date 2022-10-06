@@ -353,7 +353,49 @@ body {
   fill: currentColor;
 }
 
+/* Constant partners section */
+
+.constant-partners .title {
+  margin-bottom: 50px;
+  font-size: 36px;
+  line-height: 1.17;
+  letter-spacing: 0.03em;
+}
+
+.constant-partners .list {
+  display: flex;
+  column-gap: 30px;
+}
+
+.company-link {
+  display: block;
+  width: 170px;
+  height: 92px;
+  padding: 16px 32px;
+  border: 1px solid #afb1b8;
+  border-radius: 4px;
+  color: var(--main-text-color);
+}
+
+.company-link:hover,
+.company-link:focus {
+  border: 1px solid var(--accent-color);
+  color: var(--accent-color);
+}
+
+.company-logo-icon {
+  display: block;
+  width: 106px;
+  height: 60px;
+  fill: currentColor;
+}
+
 /* Footer */
+
+.site-footer .container {
+  display: flex;
+  align-items: center;
+}
 
 .main-logo-footer {
   display: block;
@@ -389,6 +431,15 @@ body {
 }
 
 .company-address .address {
+  color: var(--white-color);
+}
+
+.social-networks-heading {
+  margin-bottom: 20px;
+  font-size: 14px;
+  line-height: 1.14;
+  letter-spacing: 0.03em;
+  text-transform: uppercase;
   color: var(--white-color);
 }
 
