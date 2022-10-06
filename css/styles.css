@@ -297,6 +297,7 @@ body {
 }
 
 .company-team .text {
+  margin-bottom: 16px;
   line-height: 1.19;
   text-align: center;
   letter-spacing: 0.03em;
@@ -306,6 +307,8 @@ body {
   width: calc((100% - 90px) / 4);
   background-color: var(--white-color);
   border-radius: 0px 0px 4px 4px;
+  box-shadow: 0px 1px 3px rgba(0, 0, 0, 0.12), 0px 1px 1px rgba(0, 0, 0, 0.14),
+    0px 2px 1px rgba(0, 0, 0, 0.2);
 }
 
 .company-team .list-item:not(:last-child) {
@@ -320,6 +323,34 @@ body {
 .company-team .text-item {
   padding-top: 30px;
   padding-bottom: 30px;
+}
+
+.social-networks {
+  display: flex;
+  column-gap: 10px;
+  justify-content: center;
+}
+
+.social-netw-link {
+  display: block;
+  height: 44px;
+  width: 44px;
+  padding: 12px;
+  border-radius: 50%;
+  color: var(--main-text-color);
+}
+
+.social-netw-link:hover,
+.social-netw-link:focus {
+  color: var(--white-color);
+  background-color: var(--accent-color);
+}
+
+.social-netw-icon {
+  display: block;
+  height: 20px;
+  width: 20px;
+  fill: currentColor;
 }
 
 /* Footer */
