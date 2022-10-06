@@ -256,6 +256,18 @@ body {
   letter-spacing: 0.03em;
 }
 
+.thumb {
+  padding: 25px 100px;
+  margin-bottom: 30px;
+  border-radius: 4px;
+  background-color: var(--tertiary-background-color);
+}
+
+.characteristics-icon {
+  height: 70px;
+  width: 70px;
+}
+
 /* Company team section */
 
 .company-team {
