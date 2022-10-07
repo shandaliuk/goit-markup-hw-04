@@ -185,6 +185,7 @@ body {
   padding: 10px 32px;
   border-radius: 4px;
   border: 1px solid transparent;
+  box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.15);
   color: var(--white-color);
   background-color: var(--accent-color);
   font-family: inherit;
